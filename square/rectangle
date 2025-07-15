@@ -1,0 +1,24 @@
+package area;
+
+public class perimeter {
+	static void rectangle(int lenght, int width) {
+		int area;
+		int perimeter;
+		area = lenght*width;
+		perimeter = 2*(lenght*width);
+		System.out.println("area of rectangle = " + area);
+		System.out.println("perimeter of rectangle = "+ perimeter);
+		
+	}
+	
+
+	public static void main(String[] args) {
+		perimeter r1 = new perimeter();
+		r1.rectangle(34, 56);
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
