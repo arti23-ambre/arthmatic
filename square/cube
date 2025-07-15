@@ -1,0 +1,22 @@
+package module;
+
+public class rem {
+	static void squre (float num) {
+		float square;
+		float cube ;
+		square = num*num;
+		cube = num*num*num;
+		System.out.println("square is = " +square );
+		System.out.println("cube is = "+cube);	
+	}
+	
+	
+
+	public static void main(String[] args) {
+		rem r1 = new rem();
+		r1.squre(5);
+		
+
+	}
+
+}
